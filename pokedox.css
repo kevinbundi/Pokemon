@@ -1,0 +1,15 @@
+div.container-fluid #right{
+	border:10px solid #405667;
+	width: 16%;
+	height: 600px;
+	display: inline-block;
+	padding: 0px;
+	margin-top: 1%;
+	padding-left: 2%;
+	position:fixed;
+}
+
+html, body{
+	background-image: url("3.jpg");
+	background-attachment: fixed;
+}

@@ -4,18 +4,15 @@
 	<meta charset="utf-8">
 	<title></title>
 	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../../javascript/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="pokedox.css">
 	<script src="../../javascript/jquery.js"></script>
-	<script>
-		$(document).ready(function(){
-			for(var i=1;i<=151;i++){
-				$('#container').append("<img src='http://pokeapi.co/media/img/"+i+".png'>")
-			}
-		})
-	</script>
+	<script src="pokedox.js"></script>
 </head>
 <body>
-	<div id="container">
-		
+	<div class="container-fluid">
+		<div class="col-md-10" id="left"></div>
+		<div class="col-md-2" id="right"></div>
 	</div>
 </body>
 </html>
