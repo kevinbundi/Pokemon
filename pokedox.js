@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$(document).on('click','img',function(){
 		var id = this.id
 		$.get('http://pokeapi.co/api/v1/pokemon/'+id,function(res){
-			// console.log(res)
+			console.log(res)
 			html_str = ""
 			html_str += "<h1>" + res.sprites[0].name + "</h1>"
 			html_str += "<img src='http://pokeapi.co/media/img/"+id+".png'>"
